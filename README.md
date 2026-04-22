@@ -2,22 +2,22 @@
 
 <!-- ALGORITHM-STATS:START -->
 ## 📊 알고리즘 풀이 통계
-> 🕐 마지막 업데이트: 2026-04-18 | 총 **19문제** 풀이
+> 🕐 마지막 업데이트: 2026-04-22 | 총 **20문제** 풀이
 ### 🟢 프로그래머스
 
-![Total](https://img.shields.io/badge/Total-13%20solved-brightgreen?style=flat-square) ![Lv.1](https://img.shields.io/badge/Lv.1-2-67c23a?style=flat-square) ![Lv.2](https://img.shields.io/badge/Lv.2-11-409eff?style=flat-square)
+![Total](https://img.shields.io/badge/Total-14%20solved-brightgreen?style=flat-square) ![Lv.1](https://img.shields.io/badge/Lv.1-2-67c23a?style=flat-square) ![Lv.2](https://img.shields.io/badge/Lv.2-12-409eff?style=flat-square)
 
-🟩 **Lv.1** `████░░░░░░░░░░░░░░░░` **2문제**
+🟩 **Lv.1** `███░░░░░░░░░░░░░░░░░` **2문제**
 
-🟦 **Lv.2** `████████████████████` **11문제**
+🟦 **Lv.2** `████████████████████` **12문제**
 
 | 날짜 | 레벨 | 문제 |
 |------|------|------|
+| 2026-04-22 | 🟦 Lv.2 | 17687. ［3차］ n진수 게임 |
 | 2026-04-18 | 🟦 Lv.2 | 17684. ［3차］ 압축 |
 | 2026-03-19 | 🟦 Lv.2 | 178870. 연속된 부분 수열의 합 |
 | 2026-03-19 | 🟦 Lv.2 | 42842. 카펫 |
 | 2026-03-18 | 🟦 Lv.2 | 42626. 더 맵게 |
-| 2026-03-16 | 🟦 Lv.2 | 42747. H－Index |
 
 ### 🔵 백준
 
@@ -37,6 +37,6 @@
 
 ### 💻 사용 언어
 
-![JavaScript](https://img.shields.io/badge/JavaScript-19-informational?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-20-informational?style=flat-square)
 
 <!-- ALGORITHM-STATS:END -->
