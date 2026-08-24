@@ -2,22 +2,22 @@
 
 <!-- ALGORITHM-STATS:START -->
 ## 📊 알고리즘 풀이 통계
-> 🕐 마지막 업데이트: 2026-08-24 | 총 **25문제** 풀이
+> 🕐 마지막 업데이트: 2026-08-24 | 총 **26문제** 풀이
 ### 🟢 프로그래머스
 
-![Total](https://img.shields.io/badge/Total-19%20solved-brightgreen?style=flat-square) ![Lv.1](https://img.shields.io/badge/Lv.1-2-67c23a?style=flat-square) ![Lv.2](https://img.shields.io/badge/Lv.2-17-409eff?style=flat-square)
+![Total](https://img.shields.io/badge/Total-20%20solved-brightgreen?style=flat-square) ![Lv.1](https://img.shields.io/badge/Lv.1-2-67c23a?style=flat-square) ![Lv.2](https://img.shields.io/badge/Lv.2-18-409eff?style=flat-square)
 
 🟩 **Lv.1** `██░░░░░░░░░░░░░░░░░░` **2문제**
 
-🟦 **Lv.2** `████████████████████` **17문제**
+🟦 **Lv.2** `████████████████████` **18문제**
 
 | 날짜 | 레벨 | 문제 |
 |------|------|------|
+| 2026-08-25 | 🟦 Lv.2 | 159993. 미로 탈출 |
 | 2026-08-24 | 🟦 Lv.2 | 1844. 게임 맵 최단거리 |
 | 2026-08-20 | 🟦 Lv.2 | 43165. 타겟 넘버 |
 | 2026-05-07 | 🟦 Lv.2 | 92341. 주차 요금 계산 |
 | 2026-04-27 | 🟦 Lv.2 | 17679. ［1차］ 프렌즈4블록 |
-| 2026-04-27 | 🟦 Lv.2 | 60058. 괄호 변환 |
 
 ### 🔵 백준
 
@@ -37,6 +37,6 @@
 
 ### 💻 사용 언어
 
-![JavaScript](https://img.shields.io/badge/JavaScript-25-informational?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-26-informational?style=flat-square)
 
 <!-- ALGORITHM-STATS:END -->
