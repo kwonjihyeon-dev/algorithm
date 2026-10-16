@@ -51,7 +51,7 @@ $-100 \le arr[i] \le 100$
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-16T13:42:42.549Z  
+**Submitted:** 2026-10-16T13:43:02.301Z  
 
 ```js
 'use strict';
@@ -101,7 +101,7 @@ function plusMinus(arr) {
     const demical = value / arr.length;
     return demical.toFixed(6)
    })
-   console.log(result.sort((a,b) => b - a).join('\n'))
+   console.log(result.sort((a,b) => Number(b) - Number(a)).join('\n'))
 }
 
 function main() {

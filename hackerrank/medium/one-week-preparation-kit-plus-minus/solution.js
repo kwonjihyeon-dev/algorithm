@@ -45,7 +45,7 @@ function plusMinus(arr) {
     const demical = value / arr.length;
     return demical.toFixed(6)
    })
-   console.log(result.sort((a,b) => b - a).join('\n'))
+   console.log(result.sort((a,b) => Number(b) - Number(a)).join('\n'))
 }
 
 function main() {
