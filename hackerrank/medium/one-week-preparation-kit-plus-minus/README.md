@@ -51,7 +51,7 @@ $-100 \le arr[i] \le 100$
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-16T13:43:02.301Z  
+**Submitted:** 2026-10-16T13:43:10.008Z  
 
 ```js
 'use strict';
