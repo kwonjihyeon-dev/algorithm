@@ -2,10 +2,19 @@ name: Update Algorithm Stats
 
 on:
   push:
+    branches:
+      - master
+      - hackerrank
     paths:
       - "프로그래머스/**"
       - "백준/**"
+      - "hackerrank/**"
   workflow_dispatch:
+
+# master 푸시와 hackerrank 푸시가 겹치면 둘 다 master 에 커밋하므로 순서대로 실행한다
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
 
 jobs:
   update-readme:
@@ -14,10 +23,23 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout master
         uses: actions/checkout@v4
         with:
+          ref: master
           fetch-depth: 0
+
+      # hackerrank 브랜치에는 PushMyCode 가 풀이와 함께 README 도 덮어쓴다.
+      # README 는 버리고 hackerrank/ 디렉터리만 master 작업 트리에 미러링한다.
+      - name: Sync hackerrank/ from hackerrank branch
+        run: |
+          if git ls-remote --exit-code --heads origin hackerrank >/dev/null; then
+            git fetch origin hackerrank
+            git rm -r --quiet --ignore-unmatch hackerrank
+            git checkout origin/hackerrank -- hackerrank
+          else
+            echo "hackerrank 브랜치 없음, 건너뜀"
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,6 +53,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
+          git add README.md hackerrank
           git diff --staged --quiet || git commit -m "📊 알고리즘 풀이 통계 자동 업데이트"
-          git push
+          git pull --rebase origin master
+          git push origin HEAD:master

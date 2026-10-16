@@ -1,49 +1,51 @@
-<div align="center">
+# 🧠 알고리즘 풀이
 
-# 🧠 Coding Solutions
+## 📊 알고리즘 풀이 통계
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-3-blue?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
-![Last Synced](https://img.shields.io/badge/Last_Synced-2026. 10. 16.-green?style=for-the-badge)
+> 🕐 마지막 업데이트: 2026-10-16 | 총 **28문제** 풀이
 
-> 🚀 Auto-synced by [**PushMyCode**](https://github.com/PushMyCode-HQ) — solve it, forget it, it's on GitHub.
+### 🟢 프로그래머스
 
-</div>
+![Total](https://img.shields.io/badge/Total-21%20solved-brightgreen?style=flat-square) ![Lv.1](https://img.shields.io/badge/Lv.1-2-67c23a?style=flat-square) ![Lv.2](https://img.shields.io/badge/Lv.2-19-409eff?style=flat-square)
 
----
+🟩 **Lv.1** `██░░░░░░░░░░░░░░░░░░` **2문제**
 
-## 📊 Stats
+🟦 **Lv.2** `████████████████████` **19문제**
 
-| Difficulty | Solved |
-|:---:|:---:|
-| 🟢 Easy | **0** |
-| 🟡 Medium | **3** |
-| 🔴 Hard | **0** |
-| **Total** | **3** |
+| 날짜 | 레벨 | 문제 |
+|------|------|------|
+| 2026-08-27 | 🟦 Lv.2 | 87946. 피로도 |
+| 2026-08-25 | 🟦 Lv.2 | 159993. 미로 탈출 |
+| 2026-08-24 | 🟦 Lv.2 | 1844. 게임 맵 최단거리 |
+| 2026-08-20 | 🟦 Lv.2 | 43165. 타겟 넘버 |
+| 2026-05-07 | 🟦 Lv.2 | 92341. 주차 요금 계산 |
 
-## 🛠️ Languages
+### 🔵 백준
 
-| Language | Solutions |
-|:---:|:---:|
-| JavaScript | **3** |
+![Total](https://img.shields.io/badge/Total-6%20solved-blue?style=flat-square) ![Silver](https://img.shields.io/badge/Silver-4-435f7a?style=flat-square) ![Gold](https://img.shields.io/badge/Gold-2-ec9a00?style=flat-square)
 
-## 📂 Repository Structure
+🥈 **Silver** `████████████████████` **4문제**
 
-```
-📦 coding-solutions/
-├── leetcode/
-│   ├── easy/
-│   ├── medium/
-│   └── hard/
-├── hackerrank/
-├── codechef/
-└── gfg/
-```
+🥇 **Gold** `██████████░░░░░░░░░░` **2문제**
 
----
+| 날짜 | 티어 | 문제 |
+|------|------|------|
+| 2026-04-18 | 🥇 Gold | 14719. 빗물 |
+| 2026-04-14 | 🥈 Silver | 1181. 단어 정렬 |
+| 2026-03-23 | 🥈 Silver | 10816. 숫자 카드 2 |
+| 2026-03-23 | 🥈 Silver | 10819. 차이를 최대로 |
+| 2026-03-23 | 🥈 Silver | 1874. 스택 수열 |
 
-<div align="center">
+### 🟩 HackerRank
 
-*Last updated: 2026-10-16* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
+![Total](https://img.shields.io/badge/Total-1%20solved-green?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-1-f0ad4e?style=flat-square)
 
-</div>
+🟡 **Medium** `████████████████████` **1문제**
+
+| 날짜 | 난이도 | 문제 |
+|------|------|------|
+| 2026-10-16 | 🟡 Medium | Balanced Brackets |
+
+### 💻 사용 언어
+
+![JavaScript](https://img.shields.io/badge/JavaScript-28-informational?style=flat-square)
