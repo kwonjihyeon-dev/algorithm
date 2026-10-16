@@ -1,42 +1,49 @@
+<div align="center">
 
+# 🧠 Coding Solutions
 
-<!-- ALGORITHM-STATS:START -->
-## 📊 알고리즘 풀이 통계
-> 🕐 마지막 업데이트: 2026-08-24 | 총 **26문제** 풀이
-### 🟢 프로그래머스
+![Total Solved](https://img.shields.io/badge/Total_Solved-1-blue?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
+![Last Synced](https://img.shields.io/badge/Last_Synced-2026. 10. 16.-green?style=for-the-badge)
 
-![Total](https://img.shields.io/badge/Total-20%20solved-brightgreen?style=flat-square) ![Lv.1](https://img.shields.io/badge/Lv.1-2-67c23a?style=flat-square) ![Lv.2](https://img.shields.io/badge/Lv.2-18-409eff?style=flat-square)
+> 🚀 Auto-synced by [**PushMyCode**](https://github.com/PushMyCode-HQ) — solve it, forget it, it's on GitHub.
 
-🟩 **Lv.1** `██░░░░░░░░░░░░░░░░░░` **2문제**
+</div>
 
-🟦 **Lv.2** `████████████████████` **18문제**
+---
 
-| 날짜 | 레벨 | 문제 |
-|------|------|------|
-| 2026-08-25 | 🟦 Lv.2 | 159993. 미로 탈출 |
-| 2026-08-24 | 🟦 Lv.2 | 1844. 게임 맵 최단거리 |
-| 2026-08-20 | 🟦 Lv.2 | 43165. 타겟 넘버 |
-| 2026-05-07 | 🟦 Lv.2 | 92341. 주차 요금 계산 |
-| 2026-04-27 | 🟦 Lv.2 | 17679. ［1차］ 프렌즈4블록 |
+## 📊 Stats
 
-### 🔵 백준
+| Difficulty | Solved |
+|:---:|:---:|
+| 🟢 Easy | **0** |
+| 🟡 Medium | **1** |
+| 🔴 Hard | **0** |
+| **Total** | **1** |
 
-![Total](https://img.shields.io/badge/Total-6%20solved-blue?style=flat-square) ![Silver](https://img.shields.io/badge/Silver-4-435f7a?style=flat-square) ![Gold](https://img.shields.io/badge/Gold-2-ec9a00?style=flat-square)
+## 🛠️ Languages
 
-🥈 **Silver** `████████████████████` **4문제**
+| Language | Solutions |
+|:---:|:---:|
+| JavaScript | **1** |
 
-🥇 **Gold** `██████████░░░░░░░░░░` **2문제**
+## 📂 Repository Structure
 
-| 날짜 | 티어 | 문제 |
-|------|------|------|
-| 2026-04-18 | 🥇 Gold | 14719. 빗물 |
-| 2026-04-14 | 🥈 Silver | 1181. 단어 정렬 |
-| 2026-03-23 | 🥈 Silver | 10816. 숫자 카드 2 |
-| 2026-03-23 | 🥈 Silver | 10819. 차이를 최대로 |
-| 2026-03-23 | 🥈 Silver | 1874. 스택 수열 |
+```
+📦 coding-solutions/
+├── leetcode/
+│   ├── easy/
+│   ├── medium/
+│   └── hard/
+├── hackerrank/
+├── codechef/
+└── gfg/
+```
 
-### 💻 사용 언어
+---
 
-![JavaScript](https://img.shields.io/badge/JavaScript-26-informational?style=flat-square)
+<div align="center">
 
-<!-- ALGORITHM-STATS:END -->
+*Last updated: 2026-10-16* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
+
+</div>
