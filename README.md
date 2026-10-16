@@ -2,7 +2,7 @@
 
 ## 📊 알고리즘 풀이 통계
 
-> 🕐 마지막 업데이트: 2026-10-16 | 총 **29문제** 풀이
+> 🕐 마지막 업데이트: 2026-10-16 | 총 **30문제** 풀이
 
 ### 🟢 프로그래머스
 
@@ -38,15 +38,16 @@
 
 ### 🟩 HackerRank
 
-![Total](https://img.shields.io/badge/Total-2%20solved-green?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-2-f0ad4e?style=flat-square)
+![Total](https://img.shields.io/badge/Total-3%20solved-green?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-3-f0ad4e?style=flat-square)
 
-🟡 **Medium** `████████████████████` **2문제**
+🟡 **Medium** `████████████████████` **3문제**
 
 | 날짜 | 난이도 | 문제 |
 |------|------|------|
 | 2026-10-16 | 🟡 Medium | Balanced Brackets |
+| 2026-10-16 | 🟡 Medium | Plus Minus |
 | 2026-10-16 | 🟡 Medium | Queue using Two Stacks |
 
 ### 💻 사용 언어
 
-![JavaScript](https://img.shields.io/badge/JavaScript-29-informational?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-30-informational?style=flat-square)
