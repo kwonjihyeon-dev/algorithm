@@ -43,7 +43,7 @@ $s$ contains only lowercase letters in the range ascii[a-z].
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T06:11:19.324Z  
+**Submitted:** 2026-10-17T06:11:20.550Z  
 
 ```js
 'use strict';
