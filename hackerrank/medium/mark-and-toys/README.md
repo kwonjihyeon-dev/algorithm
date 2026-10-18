@@ -48,7 +48,7 @@ A toy can't be bought multiple times.
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T14:19:30.937Z  
+**Submitted:** 2026-10-18T14:25:32.559Z  
 
 ```js
 'use strict';
@@ -88,13 +88,16 @@ function maximumToys(prices, k) {
    
   const sortedPrices = prices.sort((a, b) => a - b);
 
-  let result = sortedPrices[0];
+  let result = 0;
   let count = 0;
   for (let i = 0; i < sortedPrices.length; i++) {
     result = sortedPrices[i] + result;
     if (result > k) return count;
-    count++
+    count++;
   }
+  
+  return count;
+  
   
   return count;
 }
