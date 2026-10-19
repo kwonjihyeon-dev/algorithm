@@ -57,7 +57,7 @@ Each of the next $q$ lines contains two space-separated integers, $queries[i][0]
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T08:37:10.318Z  
+**Submitted:** 2026-10-19T09:00:37.000Z  
 
 ```js
 'use strict';
@@ -95,40 +95,40 @@ function freqQuery(queries) {
       const [role, score] = query;
       
       switch (role) {
-        case 1:
-          let count = 0
-          if (store.has(score)) {
-            count = store.get(score)
-          }
-            ++count;
-            store.set(score, count)
-          
-          if (countStore.has(count)) {
-            countStore.set(count, countStore.get(count) + 1)
-          } else {
-            countStore.set(count, 1)
-          }
-          break;
-        case 2:
-          if (store.has(score)) {
-            let already = store.get(score)
-            if (already === 0) {
-                store.delete(score);
-            } else {
-                --already;
-                store.set(score, already);
-                
-                if (countStore.has(already)) {
-                    countStore.set(already, countStore.get(already) + 1)
-                } else {
-                    countStore.set(already, 1)
-                }
-            }
-          }
-          break;
+case 1:
+  let count = 0
+  if (store.has(score)) {
+    count = store.get(score)
+    countStore.set(count, countStore.get(count) - 1)
+  }
+  ++count;
+  store.set(score, count)
+  if (countStore.has(count)) {
+    countStore.set(count, countStore.get(count) + 1)
+  } else {
+    countStore.set(count, 1)
+  }
+  break;
+case 2:
+  if (store.has(score)) {
+    let already = store.get(score)
+    countStore.set(already, countStore.get(already) - 1)
+    --already;
+    if (already === 0) {
+      store.delete(score);
+    } else {
+      store.set(score, already);
+      if (countStore.has(already)) {
+        countStore.set(already, countStore.get(already) + 1)
+      } else {
+        countStore.set(already, 1)
+      }
+    }
+  }
+  break;
          case 3:
           
-          result.push(countStore.has(score) ? 1 : 0)
+          result.push((countStore.has(score) && countStore.get(score) > 0) ? 1 : 0)
           break;
           
       }
@@ -157,7 +157,6 @@ function main() {
 
     ws.end();
 }
-
 ```
 
 ---
