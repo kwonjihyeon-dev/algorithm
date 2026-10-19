@@ -2,7 +2,7 @@
 
 ## 📊 알고리즘 풀이 통계
 
-> 🕐 마지막 업데이트: 2026-10-19 | 총 **36문제** 풀이
+> 🕐 마지막 업데이트: 2026-10-19 | 총 **37문제** 풀이
 
 ### 🟢 프로그래머스
 
@@ -38,20 +38,20 @@
 
 ### 🟩 HackerRank
 
-![Total](https://img.shields.io/badge/Total-9%20solved-green?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-5cb85c?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-8-f0ad4e?style=flat-square)
+![Total](https://img.shields.io/badge/Total-10%20solved-green?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-5cb85c?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-9-f0ad4e?style=flat-square)
 
-🟢 **Easy** `███░░░░░░░░░░░░░░░░░` **1문제**
+🟢 **Easy** `██░░░░░░░░░░░░░░░░░░` **1문제**
 
-🟡 **Medium** `████████████████████` **8문제**
+🟡 **Medium** `████████████████████` **9문제**
 
 | 날짜 | 난이도 | 문제 |
 |------|------|------|
 | 2026-10-19 | 🟡 Medium | Alternating Characters |
 | 2026-10-19 | 🟡 Medium | ctci-comparator-sorting |
+| 2026-10-19 | 🟡 Medium | ctci-making-anagrams |
 | 2026-10-18 | 🟡 Medium | Mark and Toys |
 | 2026-10-17 | 🟢 Easy | Two Strings |
-| 2026-10-17 | 🟡 Medium | Pairs |
 
 ### 💻 사용 언어
 
-![JavaScript](https://img.shields.io/badge/JavaScript-36-informational?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-37-informational?style=flat-square)
