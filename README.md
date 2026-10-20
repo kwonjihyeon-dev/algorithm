@@ -2,7 +2,7 @@
 
 ## 📊 알고리즘 풀이 통계
 
-> 🕐 마지막 업데이트: 2026-10-20 | 총 **42문제** 풀이
+> 🕐 마지막 업데이트: 2026-10-20 | 총 **43문제** 풀이
 
 ### 🟢 프로그래머스
 
@@ -38,20 +38,20 @@
 
 ### 🟩 HackerRank
 
-![Total](https://img.shields.io/badge/Total-15%20solved-green?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-5cb85c?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-14-f0ad4e?style=flat-square)
+![Total](https://img.shields.io/badge/Total-16%20solved-green?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-5cb85c?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-15-f0ad4e?style=flat-square)
 
 🟢 **Easy** `█░░░░░░░░░░░░░░░░░░░` **1문제**
 
-🟡 **Medium** `████████████████████` **14문제**
+🟡 **Medium** `████████████████████` **15문제**
 
 | 날짜 | 난이도 | 문제 |
 |------|------|------|
+| 2026-10-21 | 🟡 Medium | Fibonacci Modified |
 | 2026-10-20 | 🟡 Medium | count-triplets-1 |
 | 2026-10-20 | 🟡 Medium | Counting Valleys |
 | 2026-10-20 | 🟡 Medium | Luck Balance |
 | 2026-10-19 | 🟡 Medium | Alternating Characters |
-| 2026-10-19 | 🟡 Medium | ctci-comparator-sorting |
 
 ### 💻 사용 언어
 
-![JavaScript](https://img.shields.io/badge/JavaScript-42-informational?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-43-informational?style=flat-square)
